@@ -1,20 +1,17 @@
 using UnityEngine;
 
-public class RocketLaunch : MonoBehaviour
+public class RocketTrigger : MonoBehaviour
 {
-    public float launchSpeed = 5f;
-    private bool isLaunching = false;
+    public GameManager gameManager;
 
-    private void Update()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (isLaunching)
+        Debug.Log("Rocket touched by: " + other.name);
+
+        if (other.CompareTag("Player"))
         {
-            transform.position += Vector3.up * launchSpeed * Time.deltaTime;
+            Debug.Log("Player touched rocket. Triggering win.");
+            gameManager.WinGame();
         }
-    }
-
-    public void Launch()
-    {
-        isLaunching = true;
     }
 }

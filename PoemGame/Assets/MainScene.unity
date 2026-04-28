@@ -662,7 +662,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 69b42ec7ea2924c7db9dc0d1142beff9, type: 3}
   m_Name: 
@@ -910,7 +910,7 @@ MonoBehaviour:
   winPanel: {fileID: 2064200279}
   failPanel: {fileID: 322321358}
   player: {fileID: 981681996}
-  rocketLaunch: {fileID: 906706555}
+  rocketLaunch: {fileID: 0}
 --- !u!4 &752580595
 Transform:
   m_ObjectHideFlags: 0
@@ -1058,6 +1058,7 @@ GameObject:
   - component: {fileID: 906706554}
   - component: {fileID: 906706553}
   - component: {fileID: 906706552}
+  - component: {fileID: 906706556}
   - component: {fileID: 906706555}
   m_Layer: 0
   m_Name: Rocket
@@ -1198,6 +1199,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b811f46be022a4901b435fd8a5d9093c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RocketTrigger
+  gameManager: {fileID: 752580594}
+--- !u!114 &906706556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906706551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8f5c88baa60b4d4a9a3a8111c5fb730, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RocketLaunch
   launchSpeed: 5
 --- !u!1 &981681996
 GameObject:
