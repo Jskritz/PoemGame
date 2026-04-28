@@ -21,18 +21,16 @@ public class ScreenKiler : MonoBehaviour
     [SerializeField]
     private bool dontDestroyOnLoad = true;
 
-    [SerializeField]
-    private float minBlockSizePercent = 10f; // Minimum percentage of screen to cover
-
-    [SerializeField]
-    private float maxBlockSizePercent = 30f; // Maximum percentage of screen to cover
-
-    [SerializeField]
-    private int maxAttempts = 50; // Maximum attempts to find a valid block position
-
     private List<ScreenRemovalBlock> removedBlocks = new List<ScreenRemovalBlock>();
+    private List<Vector2> uncoveredPoints = new List<Vector2>();
     private Texture2D fillTexture;
     private float totalScreenArea;
+
+    [SerializeField]
+    private int pointSamplingStep = 5; // Sample points every N pixels for efficiency
+
+    [SerializeField]
+    private int maxAttempts = 100; // Maximum attempts to find a valid block position
 
     // Pool of colors for blocks
     private Color[] blockColors = new Color[]
@@ -72,6 +70,18 @@ public class ScreenKiler : MonoBehaviour
         fillTexture.Apply();
         
         totalScreenArea = Screen.width * Screen.height;
+        
+        // Initialize uncovered points grid
+        uncoveredPoints.Clear();
+        for (int x = 0; x < Screen.width; x += pointSamplingStep)
+        {
+            for (int y = 0; y < Screen.height; y += pointSamplingStep)
+            {
+                uncoveredPoints.Add(new Vector2(x, y));
+            }
+        }
+        
+        Debug.Log($"ScreenKiler initialized. Total screen area: {totalScreenArea} pixels. Uncovered points: {uncoveredPoints.Count}");
     }
 
     private void Start()
@@ -85,58 +95,96 @@ public class ScreenKiler : MonoBehaviour
         if (Keyboard.current.spaceKey.wasPressedThisFrame)
         {
             RemoveRandomBlock();
+            CheckForEndgame();
+        }
+    }
+
+    public void CheckForEndgame()
+    {
+        if (GetTotalRemovedScreenPercentage() >= 100f)
+        {
+            Debug.Log("Game Over! The entire screen has been removed.");
+            // You can add additional endgame logic here, such as showing a message or restarting the game.
         }
     }
 
     public void RemoveRandomBlock()
     {
-        float targetAreaMin = totalScreenArea * (minBlockSizePercent / 100f);
-        float targetAreaMax = totalScreenArea * (maxBlockSizePercent / 100f);
-        
-        // Try to generate a block that covers at least minBlockSizePercent of screen (accounting for overlaps)
-        Rect newBlock = Rect.zero;
+        // Find an uncovered position
+        Vector2 uncoveredPosition = FindUncoveredPosition();
+        if (uncoveredPosition == Vector2.negativeInfinity)
+        {
+            Debug.Log("No uncovered positions found! Screen is fully covered.");
+            return;
+        }
+
+        // Generate a block centered on this position that covers at least 10% non-overlapping area
+        float targetArea = totalScreenArea * 0.1f; // 10% of screen
+        Rect blockAroundPosition = Rect.zero;
         int attempts = 0;
-        
+
+        blockAroundPosition = GenerateBlockAroundPosition(uncoveredPosition);
+        AddBlock(blockAroundPosition);
+        return;
         while (attempts < maxAttempts)
         {
-            newBlock = GenerateRandomBlock(targetAreaMin, targetAreaMax);
-            float nonOverlappingArea = CalculateNonOverlappingArea(newBlock);
-            
-            // Check if the non-overlapping area meets the minimum requirement
-            if (nonOverlappingArea >= targetAreaMin)
+            blockAroundPosition = GenerateBlockAroundPosition(uncoveredPosition);
+            float nonOverlappingArea = CalculateNonOverlappingArea(blockAroundPosition);
+            Debug.Log($"Generated block with non-overlapping area {nonOverlappingArea} pixels (target: {targetArea} pixels).");
+            if (nonOverlappingArea >= targetArea)
             {
-                AddBlock(newBlock);
+                // Success! Add the block
+                AddBlock(blockAroundPosition);
                 return;
             }
-            
+
             attempts++;
         }
-        
-        // If we couldn't find a suitable position after max attempts, add it anyway
-        Debug.LogWarning($"Could not find a position where block covers {minBlockSizePercent}% non-overlapping area after {maxAttempts} attempts. Adding block anyway.");
-        AddBlock(newBlock);
+
+        // If we couldn't find a valid block after max attempts, log a warning
+        Debug.LogWarning($"Could not find a block around position ({uncoveredPosition.x}, {uncoveredPosition.y}) that covers 10% non-overlapping area after {maxAttempts} attempts.");
     }
 
-    private Rect GenerateRandomBlock(float minArea, float maxArea)
+    private Vector2 FindUncoveredPosition()
     {
-        // Generate a random size within the acceptable range
-        float targetArea = Random.Range(minArea, maxArea);
+        if (uncoveredPoints.Count == 0)
+        {
+            return Vector2.negativeInfinity; // No uncovered positions found
+        }
+
+        // Pick a random point from the remaining uncovered points
+        int randomIndex = Random.Range(0, uncoveredPoints.Count);
+        return uncoveredPoints[randomIndex];
+    }
+
+    private Rect GenerateBlockAroundPosition(Vector2 centerPosition)
+    {
+        // Block should cover at least 10% of total screen area (with some variation)
+        float targetArea = totalScreenArea * Random.Range(0.10f, 0.15f); // 10-15% to ensure we meet the 10% requirement
+        Debug.Log($"Generating block from {totalScreenArea} total area. Target area: {targetArea} pixels.");
         
-        // Random aspect ratio between 0.5 and 2.0
+        // Random aspect ratio
         float aspectRatio = Random.Range(0.5f, 2f);
-        
-        // Calculate width and height based on target area and aspect ratio
+
+        // Calculate dimensions without clamping first
         float height = Mathf.Sqrt(targetArea / aspectRatio);
         float width = targetArea / height;
-        
+
         // Clamp to screen bounds
         width = Mathf.Min(width, Screen.width);
         height = Mathf.Min(height, Screen.height);
-        
-        // Random position, ensuring block stays within screen
-        float x = Random.Range(0, Screen.width - width);
-        float y = Random.Range(0, Screen.height - height);
-        
+
+        // Position the block centered on the uncovered position
+        float halfWidth = width / 2f;
+        float halfHeight = height / 2f;
+
+        float x = centerPosition.x - halfWidth;
+        float y = centerPosition.y - halfHeight;
+
+        // Ensure the block stays within screen bounds
+        x = Mathf.Clamp(x, 0, Screen.width - width);
+        y = Mathf.Clamp(y, 0, Screen.height - height);
+
         return new Rect(x, y, width, height);
     }
 
@@ -146,7 +194,10 @@ public class ScreenKiler : MonoBehaviour
         ScreenRemovalBlock block = new ScreenRemovalBlock(rect, randomColor);
         removedBlocks.Add(block);
         
-        Debug.Log($"Added new block at ({rect.x}, {rect.y}) with size {rect.width}x{rect.height}. Total blocks: {removedBlocks.Count}");
+        // Remove all points covered by this new block
+        uncoveredPoints.RemoveAll(point => rect.Contains(point));
+        
+        Debug.Log($"Added new block at ({rect.x}, {rect.y}) with size {rect.width}x{rect.height}. Total blocks: {removedBlocks.Count}. Remaining uncovered points: {uncoveredPoints.Count}. Coverage: {GetTotalRemovedScreenPercentage():F1}%");
     }
 
     /// <summary>
@@ -207,6 +258,17 @@ public class ScreenKiler : MonoBehaviour
     public void ResetRemovedSections()
     {
         removedBlocks.Clear();
+        
+        // Reinitialize uncovered points
+        uncoveredPoints.Clear();
+        for (int x = 0; x < Screen.width; x += pointSamplingStep)
+        {
+            for (int y = 0; y < Screen.height; y += pointSamplingStep)
+            {
+                uncoveredPoints.Add(new Vector2(x, y));
+            }
+        }
+        
         Debug.Log("All blocks have been reset.");
     }
 
