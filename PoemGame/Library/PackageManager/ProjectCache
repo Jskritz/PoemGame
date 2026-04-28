@@ -1,25 +1,25 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: /home/dofor4668/repos/PoemGame/PoemGame/Packages/manifest.json
+    m_FilePath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639129611330000000
+      ticks: 639129592750000000
     m_Hash: 3339551116
   m_LockFileStatus:
-    m_FilePath: /home/dofor4668/repos/PoemGame/PoemGame/Packages/packages-lock.json
+    m_FilePath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639129611330000000
+      ticks: 639129592890000000
     m_Hash: 3038161948
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: /home/dofor4668/repos/PoemGame/PoemGame/Packages
+m_ProjectPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Packages
 m_EditorVersion: 6000.4.4f1 (360f97ecca93)
 m_ResolvedPackages:
 - packageId: com.unity.2d.animation@14.0.3
@@ -27,7 +27,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 14.0.3
   source: 1
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.2d.animation@a6f2f1d22eb5
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.2d.animation@a6f2f1d22eb5
   assetPath: Packages/com.unity.2d.animation
   name: com.unity.2d.animation
   displayName: 2D Animation
@@ -335,7 +335,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 4.0.1
   source: 1
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.2d.aseprite@151b68d46c40
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.2d.aseprite@151b68d46c40
   assetPath: Packages/com.unity.2d.aseprite
   name: com.unity.2d.aseprite
   displayName: 2D Aseprite Importer
@@ -518,7 +518,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 13.0.2
   source: 1
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.2d.psdimporter@11a0e04e0561
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.2d.psdimporter@11a0e04e0561
   assetPath: Packages/com.unity.2d.psdimporter
   name: com.unity.2d.psdimporter
   displayName: 2D PSD Importer
@@ -757,7 +757,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.2d.sprite@86f35cf682f2
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.2d.sprite@929df5adbb1f
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -832,7 +832,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 86f35cf682f2a6ec20955d5e9bc750185edf6021
+  fingerprint: 929df5adbb1fa0f2e55b55a7cfb69bde65a57b7d
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
@@ -848,7 +848,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 14.0.1
   source: 1
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.2d.spriteshape@da3647ffbbd7
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.2d.spriteshape@da3647ffbbd7
   assetPath: Packages/com.unity.2d.spriteshape
   name: com.unity.2d.spriteshape
   displayName: 2D SpriteShape
@@ -1089,7 +1089,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.2d.tilemap@6b2a48049d54
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.2d.tilemap@c457c5249013
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
   displayName: 2D Tilemap Editor
@@ -1183,7 +1183,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 6b2a48049d54884cfb672c16118e63b7138fa794
+  fingerprint: c457c5249013beed66a11f777c91a4fb12142f14
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
@@ -1199,7 +1199,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 7.0.1
   source: 1
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.2d.tilemap.extras@66df903b3633
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.2d.tilemap.extras@66df903b3633
   assetPath: Packages/com.unity.2d.tilemap.extras
   name: com.unity.2d.tilemap.extras
   displayName: 2D Tilemap Extras
@@ -1382,7 +1382,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.1
   source: 1
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.2d.tooling@baa4133dcff2
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.2d.tooling@baa4133dcff2
   assetPath: Packages/com.unity.2d.tooling
   name: com.unity.2d.tooling
   displayName: 2D Tooling
@@ -1517,7 +1517,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.12.4
   source: 1
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.collab-proxy@0b1559bcd34e
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.collab-proxy@0b1559bcd34e
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Unity Version Control
@@ -1733,7 +1733,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.39
   source: 1
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.ide.rider@4504839d03f7
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.ide.rider@4504839d03f7
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -1878,7 +1878,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.27
   source: 1
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.ide.visualstudio@dc1ddd4f09b6
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.ide.visualstudio@dc1ddd4f09b6
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -2008,7 +2008,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.19.0
   source: 1
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.inputsystem@21a28c3a6c83
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.inputsystem@21a28c3a6c83
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -2192,7 +2192,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.1
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.multiplayer.center@53ad5a5c2bfb
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -2283,7 +2283,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 53ad5a5c2bfb024bdca1188770c49ab70cef8c69
+  fingerprint: f01f4ba8d00afa4e957bddf0fcd1612a564401ff
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.1
@@ -2299,7 +2299,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 17.4.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.render-pipelines.universal@366bb53b7d8b
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.render-pipelines.universal@18d0e59f18f1
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal Render Pipeline
@@ -2417,7 +2417,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 366bb53b7d8bbd1331749090569f2b516ab6d672
+  fingerprint: 18d0e59f18f19c3e22834c10b46832aa94472c52
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.4.0
@@ -2433,7 +2433,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.6.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.test-framework@9faaf09ec578
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.test-framework@76560ee600cb
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -2518,7 +2518,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 9faaf09ec578cbc80a2f8655f80e430ff4ad8d1e
+  fingerprint: 76560ee600cb07c29e08760be4a5c75da65a9d9e
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.6.0
@@ -2534,7 +2534,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.12
   source: 1
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.timeline@8cd8509afae5
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.timeline@8cd8509afae5
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -2735,7 +2735,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.ugui@760fe300c849
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.ugui@d8a2716f3013
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: uGUI
@@ -2826,7 +2826,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 760fe300c849451c9549ca345524fcc2b440085a
+  fingerprint: d8a2716f30132e533c8f0cd850b4ba55bd18c2a6
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.0
@@ -2842,7 +2842,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.11
   source: 1
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.visualscripting@8bed5ad90189
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.visualscripting@8bed5ad90189
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -2982,7 +2982,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.accessibility
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.accessibility
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -3070,7 +3070,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.adaptiveperformance
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.adaptiveperformance
   assetPath: Packages/com.unity.modules.adaptiveperformance
   name: com.unity.modules.adaptiveperformance
   displayName: Adaptive Performance
@@ -3164,7 +3164,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.ai
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.ai
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -3252,7 +3252,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.androidjni
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.androidjni
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -3339,7 +3339,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.animation
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.animation
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -3427,7 +3427,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.assetbundle
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.assetbundle
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -3515,7 +3515,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.audio
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.audio
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -3603,7 +3603,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.cloth
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.cloth
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -3695,7 +3695,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.director
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.director
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -3791,7 +3791,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.imageconversion
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.imageconversion
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -3879,7 +3879,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.imgui
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.imgui
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -3967,7 +3967,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.jsonserialize
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.jsonserialize
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -4055,7 +4055,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.particlesystem
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.particlesystem
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -4143,7 +4143,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.physics
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.physics
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -4231,7 +4231,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.physics2d
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.physics2d
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -4319,7 +4319,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.screencapture
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.screencapture
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -4411,7 +4411,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.terrain
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.terrain
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -4499,7 +4499,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.terrainphysics
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.terrainphysics
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -4595,7 +4595,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.tilemap
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.tilemap
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -4686,7 +4686,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.ui
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.ui
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -4774,7 +4774,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.uielements
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.uielements
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -4882,7 +4882,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.umbra
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.umbra
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -4970,7 +4970,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.unityanalytics
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.unityanalytics
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -5065,7 +5065,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.unitywebrequest
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.unitywebrequest
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -5153,7 +5153,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -5249,7 +5249,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.unitywebrequestaudio
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.unitywebrequestaudio
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -5345,7 +5345,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.unitywebrequesttexture
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.unitywebrequesttexture
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -5441,7 +5441,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.unitywebrequestwww
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.unitywebrequestwww
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -5553,7 +5553,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.vectorgraphics
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.vectorgraphics
   assetPath: Packages/com.unity.modules.vectorgraphics
   name: com.unity.modules.vectorgraphics
   displayName: Vector Graphics
@@ -5660,7 +5660,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.vehicles
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.vehicles
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -5752,7 +5752,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.video
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.video
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -5852,7 +5852,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.vr
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.vr
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -5955,7 +5955,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.wind
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.wind
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -6043,7 +6043,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.xr
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.xr
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -6143,7 +6143,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.subsystems
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.subsystems
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -6235,7 +6235,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.hierarchycore
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.modules.hierarchycore
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -6323,7 +6323,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.ext.nunit@ec2d0043d6fc
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.ext.nunit@d8c07649098d
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -6398,7 +6398,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: ec2d0043d6fc7a6d17671dfca00f9c303b1d735f
+  fingerprint: d8c07649098d3936da4c8ab500960c1776b44592
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.5
@@ -6414,7 +6414,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.4.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.render-pipelines.core@789199009d13
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.render-pipelines.core@2269be549234
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Scriptable Render Pipeline Core
@@ -6527,7 +6527,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 789199009d135932aac7a249553f259e2f705688
+  fingerprint: 2269be549234502e6fdad99433d843a52a84bb65
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.4.0
@@ -6543,7 +6543,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.4.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.shadergraph@ba64c3eae297
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.shadergraph@cd28a7c13031
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -6650,7 +6650,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: ba64c3eae297f681af18a055e08d745865bbc073
+  fingerprint: cd28a7c130315c7f7f6b8706359cc7f16c301562
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.4.0
@@ -6666,7 +6666,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.4.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.render-pipelines.universal-config@651fb0d9c1bf
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.render-pipelines.universal-config@0db4263b9e6b
   assetPath: Packages/com.unity.render-pipelines.universal-config
   name: com.unity.render-pipelines.universal-config
   displayName: Universal Render Pipeline Config
@@ -6765,7 +6765,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 651fb0d9c1bf889dfdc2b3838356d8072d79db90
+  fingerprint: 0db4263b9e6bf7bab5fa0de676e2dc8228fd457d
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.4.0
@@ -6781,7 +6781,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 13.0.1
   source: 1
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.2d.common@49d8bea2bff3
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.2d.common@49d8bea2bff3
   assetPath: Packages/com.unity.2d.common
   name: com.unity.2d.common
   displayName: 2D Common
@@ -6993,7 +6993,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.3.3
   source: 1
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.mathematics@19a9377c4ffa
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.mathematics@19a9377c4ffa
   assetPath: Packages/com.unity.mathematics
   name: com.unity.mathematics
   displayName: Mathematics
@@ -7104,7 +7104,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 6.4.0
   source: 2
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.collections@5206fceb8dbd
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.collections@9c2353fb96f6
   assetPath: Packages/com.unity.collections
   name: com.unity.collections
   displayName: Collections
@@ -7205,7 +7205,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 5206fceb8dbd76274d1c4a41fd0974fa440f72b9
+  fingerprint: 9c2353fb96f69df9b88c6872723f857b38a6bc42
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 6.4.0
@@ -7221,7 +7221,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.9.4
   source: 1
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.searcher@d45a78918735
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.searcher@d45a78918735
   assetPath: Packages/com.unity.searcher
   name: com.unity.searcher
   displayName: Searcher
@@ -7329,7 +7329,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.8.29
   source: 1
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.burst@6bb9aca3ef38
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.burst@6bb9aca3ef38
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -7573,7 +7573,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.11.6
   source: 1
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff
   assetPath: Packages/com.unity.nuget.mono-cecil
   name: com.unity.nuget.mono-cecil
   displayName: Mono Cecil
@@ -7678,7 +7678,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.4.0
   source: 1
-  resolvedPath: /home/dofor4668/repos/PoemGame/PoemGame/Library/PackageCache/com.unity.test-framework.performance@aa81a99c4a75
+  resolvedPath: /Users/prakriti/Documents/GitHub/PoemGame/PoemGame/Library/PackageCache/com.unity.test-framework.performance@aa81a99c4a75
   assetPath: Packages/com.unity.test-framework.performance
   name: com.unity.test-framework.performance
   displayName: Performance testing API
@@ -7832,4 +7832,4 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-m_BuiltInPackagesHash: ab53071bde1c2460035093f52f1f46dd7e8f053f
+m_BuiltInPackagesHash: 271d0a6e823a2995b9dc59a6814bbd207c2478bd
