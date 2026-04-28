@@ -104,3 +104,36 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Unity generated folders
+PoemGame/Library/
+PoemGame/Temp/
+PoemGame/Obj/
+PoemGame/Logs/
+PoemGame/UserSettings/
+
+# Build outputs
+PoemGame/Build/
+PoemGame/Builds/
+
+# Unity / Visual Studio generated files
+PoemGame/.vs/
+PoemGame/*.csproj
+PoemGame/*.sln
+PoemGame/*.user
+PoemGame/*.pidb
+PoemGame/*.booproj
+PoemGame/*.svd
+PoemGame/*.pdb
+PoemGame/*.mdb
+PoemGame/*.opendb
+PoemGame/*.VC.db
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE folders
+.vscode/
+.idea/
